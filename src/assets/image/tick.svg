@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+      <feOffset dx="0" dy="0" />
+      <feGaussianBlur stdDeviation="15" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.03529412 0 0 0 0 0.1764706 0 0 0 0 0.29803923 0 0 0 0.14117648 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+  </defs>
+  <g id="Group-2">
+    <path d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30Z" id="Oval" fill="#85BE05" fill-rule="evenodd" stroke="none" filter="url(#filter_1)" />
+    <g id="" fill="#FFFFFF" transform="translate(9 8.852796)">
+      <path d="M11.4583 3.64821C11.4583 3.47678 11.3897 3.30535 11.2663 3.18192L10.3337 2.24935C10.2103 2.12592 10.0389 2.05735 9.86743 2.05735C9.696 2.05735 9.52457 2.12592 9.40114 2.24935L4.90286 6.75449L2.88686 4.73164C2.76343 4.60821 2.592 4.53964 2.42057 4.53964C2.24914 4.53964 2.07771 4.60821 1.95429 4.73164L1.02171 5.66421C0.898286 5.78764 0.829714 5.95907 0.829714 6.13049C0.829714 6.30192 0.898286 6.47335 1.02171 6.59678L3.504 9.07907L4.43657 10.0116C4.56 10.1351 4.73143 10.2036 4.90286 10.2036C5.07429 10.2036 5.24571 10.1351 5.36914 10.0116L6.30171 9.07907L11.2663 4.11449C11.3897 3.99107 11.4583 3.81964 11.4583 3.64821Z" />
+    </g>
+  </g>
+</svg>

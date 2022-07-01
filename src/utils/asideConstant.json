@@ -1,0 +1,20 @@
+{
+    "title":[
+        "Financial Topics",
+        "Your Age Range",
+        "Your Household Income",
+        "Your Profession",
+        "Your Zip Code",
+        "Your Investable Savings"
+
+    ],
+    "text":[
+        "Select one or more topics you would like to discuss with a financial advisor.",
+        "Each of us has specific needs in our life stages, and your age helps us understand what needs you might have. ",
+        "Your household income is many times a good measure of your tax liability and your ability to invest for your future.",
+        "Many professions have specialized rules, restrictions, and limits on where or when you invest - in these scenarios, it's essential to partner with an advisor that understands your specific needs.",
+        "Often investors prefer to live in the same area as their advisors, so this is one of the many factors considered to make your match.",
+        "By providing your current investable savings, we'll match you with an advisor who specializes in crafting an investment strategy that matches your investment timeline."
+
+    ]
+}

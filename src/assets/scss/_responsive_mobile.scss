@@ -1,0 +1,232 @@
+@mixin input_style {
+    .v-text-field.v-text-field--solo:not(.v-text-field--solo-flat) > .v-input__control > .v-input__slot {
+        height: 40px;
+        border: 1px solid #c8d1d8;
+        border-radius: 5px;
+    }
+
+    input,
+    textarea {
+        font-size: 12px;
+        line-height: 20px;
+        height: 40px !important;
+        line-height: 18px;
+        min-height: 40px !important;
+
+        &::placeholder {
+            color: #cecece !important;
+        }
+    }
+
+    .v-text-field.v-text-field--solo .v-input__control {
+        min-height: 40px;
+    }
+
+    .vue-phone-number-input ~ .msg-error {
+        margin-top: -3px;
+    }
+
+    .v-list-item {
+        min-height: 35px;
+
+        .v-list-item__content {
+            padding: 15px 0;
+
+            .v-list-item__title {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .v-btn {
+        &.action {
+            width: 130px;
+
+            span.v-btn__content {
+                font-size: 12px !important;
+            }
+        }
+    }
+
+    span.action {
+        width: auto;
+    }
+
+    .v-btn-toggle .v-btn.v-btn.v-size--default {
+        height: 38px !important;
+
+        &.h-60 {
+            height: 60px !important;
+        }
+
+        span {
+            font-size: 12px;
+        }
+    }
+
+    .v-text-field.v-text-field--solo:not(.v-text-field--solo-flat) > .v-input__control > .v-input__slot {
+        .mdi-menu-down::before {
+            height: 18px;
+            width: 18px;
+        }
+    }
+
+    .p-xs-1 {
+        padding: 8px !important;
+    }
+
+    ._10-sm-px {
+        padding: 0px 4px !important;
+    }
+}
+
+@media (max-width: 540px) {
+    body {
+        header {
+            padding: 20px;
+            height: 80px !important;
+
+            .v-toolbar__content {
+                height: 38px !important;
+                padding: 0;
+
+                .v-image.v-responsive {
+                    height: 30px !important;
+                    width: 90px !important;
+                    min-height: 30px !important;
+                }
+            }
+        }
+
+        .v-main {
+            padding-top: 80px !important;
+        }
+
+        #j-container {
+            flex-direction: column;
+            height: calc(100vh - 80px);
+
+            .side-view {
+                width: auto;
+                padding: 20px;
+                display: none;
+
+                h2 {
+                    font-family: "Montserrat";
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #eaf0f6;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 19px;
+                    margin-bottom: 0;
+                }
+            }
+
+            .content {
+                overflow-y: auto;
+                overflow-x: hidden;
+
+                > .container {
+                    padding: 25px;
+                    display: block !important;
+                }
+
+                .noob-progress {
+                    z-index: 1;
+
+                    .progress::after {
+                        font-size: 12px;
+                    }
+                }
+
+                .content-660,
+                .content-500 {
+                    width: 100%;
+                    margin-top: 5%;
+                    @include input_style;
+
+                    .error-container {
+                        position: relative;
+                        top: unset;
+                        margin-top: 0;
+                    }
+
+                    .p-1 {
+                        padding: 8px !important;
+                    }
+
+                    .heading {
+                        font-size: 20px;
+                        line-height: 25px;
+                        font-weight: 700;
+                    }
+                }
+
+                .redirect {
+                    height: 65vh;
+
+                    ul {
+                        padding-left: 0;
+
+                        li {
+                            font-size: 18px;
+                            line-height: 25px;
+                            margin-bottom: 25px;
+
+                            .success-loader .status:after {
+                                top: 0.4em;
+                            }
+                        }
+                    }
+                }
+
+                .privacy {
+                    bottom: 20px;
+                    right: 20px;
+
+                    &:hover {
+                        .hover-data {
+                            visibility: visible;
+                            width: 90vw;
+                            right: 5vw;
+                            bottom: 60px;
+                            border-radius: 10px;
+                            padding: 10px;
+                            position: fixed;
+
+                            span {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .heading {
+            font-size: 20px !important;
+            line-height: 30px;
+            font-weight: 700;
+        }
+
+        .sub-heading {
+            font-size: 14px;
+            line-height: 26px;
+            color: #818d98;
+            margin-bottom: 0;
+        }
+
+        .advisorProfileSection {
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        .advisorListing {
+            padding: 25px;
+        }
+    }
+}
